@@ -1,11 +1,17 @@
-/* * {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
 
 .login-container {
     width: 300px;
@@ -39,11 +45,11 @@
     border-radius: 4px;
     outline: none;
     font-size: 16px;
-} */
+}
 
-/* button {
-    /* width: 100%; */
-   /* padding: 10px;
+button {
+    width: 100%;
+    padding: 10px;
     background-color: #28a745;
     color: white;
     border: none;
@@ -51,57 +57,8 @@
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
-} 
+}
 
 button:hover {
     background-color: #218838;
-}
-
-body {
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    /* height: 100vh; */
-    /* width: 100%;
-    background-color: #f0f2f5;
-}
-
-.username{
-    width: 100%;
-} */ 
- /*  */
- *{
-    padding: 0%;
-    margin: 0%;
-}
-.login-container{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 100vh;
-    padding: 20px;
-    width: 45vw;
-    height: 30vh;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 4px;
-}
-.search-bar{
-    width: 90%;
-    padding:3px;
-    margin: 7px;
-    border-radius: 5px;
-    height: 3.5vh;
-    border: 0.5px solid rgb(165, 161, 161);
-}
-.login-btn{
-    height: 5vh;
-    padding: 7px;
-    text-align: center;
-    margin: 10px;
-    border-radius: 5px;
-    border: none;
-    color:white;
-    background-color: rgb(21, 123, 21);
-}
-.hidden{
-    display: none;
 }
